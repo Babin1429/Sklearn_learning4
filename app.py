@@ -49,5 +49,6 @@ if st.button("Predict Result"):
 
     if prediction[0] == 1:
         st.success(" Student will PASS")
+        st.balloons()
     else:
         st.error(" Student will FAIL")
